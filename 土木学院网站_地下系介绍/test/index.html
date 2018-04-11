@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>教师介绍test</title>
+    <meta  name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <style>
+        body{
+            padding-top: 70px;
+        }
+    </style>
+</head>
+<body class="container">
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="navbar-brand">教师介绍</div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="row">
+    <!-- 左侧 -->
+        <div class="col-sm-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">个人简介</div>
+                <div class="panel-body">
+                    <img src="img/me.png" class="img-responsive img-rounded img-thumbnail center-block">
+                    <h4 class="text-center">戴国亮</h4>
+                    <address>
+                        <strong>中国 南京</strong><br>
+                        <span class="glyphicon glyphicon-home" title="Address"><kbd>东南大学土木工程学院</kbd></span><br>
+                        <span class="glyphicon glyphicon-file" title="PostalCoded">210096</span><br>
+                        <span class="glyphicon glyphicon-phone" title="Mobile">13912987757</span><br>
+                        <span class="glyphicon glyphicon-envelope" title="Email"><code>daigl@seu.edu.cn, seudaigl@126.com</code></span>
+                    </address>
+                </div>
+            </div>
+            <div class="panel panel-info">
+                <div class="panel panel-heading">Personal Skill</div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="text-muted">HTML5</span>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped active" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="text-success">IOS</span>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-success active" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="text-info">PHP</span>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-info active" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="text-warning">JQuery</span>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-warning active" style="width: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="text-danger">CSS</span>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-danger active" style="width: 50%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel panel-heading">ContactMe</div>
+                <div class="panel-body">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="email" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" id="email" class="form-control" placeholder="Email">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="name" class="col-sm-2 control-label">Name</label>
+                            <div class="col-sm-10">
+                                <input type="text" id="name" class="form-control" placeholder="Name">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-10 col-sm-offset-2">
+                                <button type="submit" class="btn btn-primary pull-right">Send</button>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- 右侧 -->
+        <div class="col-sm-9">
+            <div class="panel panel-default">
+                <div class="panel-heading">戴国亮</div>
+                <div class="panel-body">
+                    <p class="text-left">
+                        博士，教授、博士生导师，国家一级注册结构工程师和注册土木工程师（岩土），交通部试验检测工程师。2010-2011美国普渡大学访问学者。
+                    </p>
+                </div>
+            </div>
+
+            <div class="panel-group" id="accoradion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a >工作经验</a>
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item list-group-item-success">
+                                        <div class="row">
+                                            <div class="col-sm-4">2015/3/1-至今</div>
+                                            <div class="col-sm-4">XXX公司</div>
+                                            <div class="col-sm-4">IOS开发工程师</div>
+                                        </div>
+                                    </li>
+
+                                    <li class="list-group-item list-group-item-warning">
+                                        <div class="row">
+                                            <div class="col-sm-4">2015/3/1-至今</div>
+                                            <div class="col-sm-4">XXX公司</div>
+                                            <div class="col-sm-4">IOS开发工程师</div>
+                                        </div>
+                                    </li>
+
+                                    <li class="list-group-item list-group-item-info">
+                                        <div class="row">
+                                            <div class="col-sm-4">2015/3/1-至今</div>
+                                            <div class="col-sm-4">XXX公司</div>
+                                            <div class="col-sm-4">IOS开发工程师</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a>教育经历</a>
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item list-group-item-success">
+                                        <div class="row">
+                                            <div class="col-sm-4">2015/3/1-至今</div>
+                                            <div class="col-sm-4">XXX公司</div>
+                                            <div class="col-sm-4">IOS开发工程师</div>
+                                        </div>
+                                    </li>
+
+                                    <li class="list-group-item list-group-item-warning">
+                                        <div class="row">
+                                            <div class="col-sm-4">2015/3/1-至今</div>
+                                            <div class="col-sm-4">XXX公司</div>
+                                            <div class="col-sm-4">IOS开发工程师</div>
+                                        </div>
+                                    </li>
+
+                                    <li class="list-group-item list-group-item-info">
+                                        <div class="row">
+                                            <div class="col-sm-4">2015/3/1-至今</div>
+                                            <div class="col-sm-4">XXX公司</div>
+                                            <div class="col-sm-4">IOS开发工程师</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a>项目经验</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <nav class="navbar-fixed-bottom text-center navbar-default">
+            只用于测试 544786313@qq.com 王博臣
+        </nav>
+    </footer>
+</body>
+
+
+</html>
